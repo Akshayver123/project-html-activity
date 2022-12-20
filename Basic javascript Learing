@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conditional statement</title>
+</head>
+<body>
+    <p id="lpu"></p>
+    <script type="text/javascript">
+        var name = ["Akshay","Verma","LPU"];
+        var test = " ";
+        var i ;
+        for(i=0; i< name.length; i++){
+            test += name[i] + "<br>"
+
+        }
+        document.getElementById('lpu').innerHTML = test;
+        
+
+
+    </script>
+    
+</body>
+</html>
