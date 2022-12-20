@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learing JS</title>
+</head>
+<body>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="datatype"></p>
+
+    <script type="text/javascript">
+        var a = 10;
+        var b = 20;
+        var sum = a+b;
+        document.getElementById('add').innerHTML = sum;
+
+        var a = 5;
+        var b = 4;
+        var sub = a-b;
+        document.getElementById("sub").innerHTML = sub;
+
+        var a = 7;
+        var b = 5;
+        var mul = a*b;
+        document.getElementById('mul').innerHTML = mul;
+
+        var c = 9;
+        var d = 2;
+        var div = c/d;
+        document.getElementById('div').innerHTML = div;
+</script>
+</body>
+</html>
